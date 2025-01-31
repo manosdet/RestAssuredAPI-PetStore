@@ -5,10 +5,8 @@
     <classes>
       <class name="api.test.UserTest">
         <methods>
-          <include name="tesDeleteUserByName"/>
-          <include name="testPostUser"/>
+          <include name="testloginUser"/>
           <include name="setupData"/>
-          <include name="testGetUserByName"/>
         </methods>
       </class> <!-- api.test.UserTest -->
     </classes>

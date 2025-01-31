@@ -58,6 +58,26 @@ public class UserEndPoints {
 		
 		return response;
 	}
-	
+	public static Response  loginUser(String userName,String password)
+	{
+	 Response response = given()
+			 .contentType(ContentType.JSON)
+				.accept(ContentType.JSON)
+				.pathParam("username", userName)
+				.pathParam("password", password)
+		.when()
+		.get(Routes.login_url);
+		
+		return response;
+	}
+	public static Response  logOutUser()
+	{
+	 Response response = given()
+			 
+		.when()
+		.get(Routes.logout_url);
+		
+		return response;
+	}
 
 }
