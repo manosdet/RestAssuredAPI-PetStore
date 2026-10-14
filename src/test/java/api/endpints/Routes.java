@@ -21,6 +21,10 @@ public static String login_url = base_url +"/user/login";
 public static String logout_url = base_url +"/user/logout";
 
 //Store module--- urls for store modules
+public static String get_store_inventory_url = base_url +"/store/inventory";
+public static String post_store_order_url = base_url +"/store/order";
+
+
 
 //Pet module __urls for pet modules
 	

@@ -88,7 +88,7 @@ git add filename.ext
   git add*.ext
   git add foldername
 
-5)commit -m "Commit massage"
+5)git commit -m "Commit massage"
 
 6) push code to remote repository 
 $- git remote add origin "https://github.com/manosdet/RestAssuredAPI-PetStore.git"    --->local repository connected with remote repository (need to do it for first time)
